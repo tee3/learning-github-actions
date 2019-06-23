@@ -4,5 +4,5 @@ workflow "Hello Workflow" {
 }
 
 action "Hello Action" {
-  uses = "./hello"
+  uses = "./.github/hello"
 }
